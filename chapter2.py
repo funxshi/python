@@ -31,6 +31,5 @@ result = x + y * 2
 # 型態轉換
 int_result = int(result)
 str_result = str(result)
-print(result)
 print(int_result)
 print(str_result)
