@@ -41,7 +41,7 @@ print(y)
 
 x = 10
 
-y = 3.125
+y = 3.21
 
 result = x + y * 2
 
@@ -49,17 +49,16 @@ int_result = int(result)
 
 str_result = str(result)
 
-
 round_result = round(result, 1)
 
 expression = "x + y * 2"
 
 eval_result = eval(expression)
 
-print("運算式結果：", result)
+print("運算式結果：",result)
 print("整數型態轉換結果：", int_result)
 print("字串型態轉換結果：", str_result)
-print("四捨五入的結果：", round_result)
+print("四捨五入轉換結果：", round_result)
 print("eval函數計算結果：", eval_result)
 
 # 語法錯誤
